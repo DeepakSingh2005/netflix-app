@@ -8,8 +8,8 @@ function App() {
     <div className='bg-black h-screen w-screen text-white'> 
     <Nevbar />
     <Routes>
-      <Route path='/' element={<Homepage />} />
-       <Route path='/login' element={<Loginpage />} />
+      <Route path='/Home' element={<Homepage />} />
+       <Route path='/' element={<Loginpage />} />
     </Routes>
      </div>
   )

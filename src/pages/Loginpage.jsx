@@ -27,7 +27,7 @@ function Loginpage() {
         </form>
         <div className='mt-6 text-center'>
           <p className='text-gray-400 mb-3'>or</p>
-          <button onClick={()=>{navigate('/')}}
+          <button onClick={()=>{navigate('/Home')}}
             className='w-full bg-gray-700 hover:bg-gray-600 text-white font-bold py-2 rounded'
           >
             Sign In as Guest
